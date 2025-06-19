@@ -1,0 +1,9 @@
+name: "Generate Index Action"
+description: "Generate index.html for each directory for CloudFlare R2 storage."
+author: michaelliao
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: folder-plus
+  color: blue
