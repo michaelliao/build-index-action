@@ -133,7 +133,7 @@ def main():
     index_files = []
     gen_index(index_files, root)
 
-    with open('index.html', 'r', encoding='utf-8') as fp:
+    with open('/app/index.html', 'r', encoding='utf-8') as fp:
         index_templ = fp.read()
 
     # upload index files:
